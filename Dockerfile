@@ -3,6 +3,6 @@ RUN mkdir /app
 ADD . /app/
 WORKDIR /app
 RUN go get github.com/gorilla/mux
-RUN go build -o main .
+RUN go build -o qotd .
 EXPOSE 10000
-CMD ["/app/main"]
+CMD ["/app/qotd"]
