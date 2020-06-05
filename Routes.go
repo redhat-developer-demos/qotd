@@ -60,4 +60,10 @@ var routes = Routes{
 		"/version",
 		Version,
 	},
+	Route{
+		"WrittenIn",
+		"GET",
+		"/writtenin",
+		WrittenIn,
+	}
 }
