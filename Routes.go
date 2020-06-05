@@ -65,5 +65,5 @@ var routes = Routes{
 		"GET",
 		"/writtenin",
 		WrittenIn,
-	}
+	},
 }
