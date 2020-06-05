@@ -37,5 +37,3 @@ func Version(w http.ResponseWriter, r *http.Request) {
 func WrittenIn(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Go")
 }
-
-
