@@ -31,7 +31,7 @@ func RandomQuote(w http.ResponseWriter, r *http.Request) {
 }
 
 func Version(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "1.0.1")
+	fmt.Fprintln(w, "2.0.0")
 }
 
 func WrittenIn(w http.ResponseWriter, r *http.Request) {
