@@ -6,7 +6,7 @@ import (
 )
 
 var quotes = Quotes{
-	Quote{Id: 0, Quotation: "40 is the old age of youth, while 50 is the youth of old age.", Author: "Victor Hugo"},
+	Quote{Id: 0, Quotation: "I got a fever, and the only prescription is more cowbell!", Author: "Will Ferrell"},
 	Quote{Id: 1, Quotation: "Knowledge is power.", Author: "Francis Bacon"},
 	Quote{Id: 2, Quotation: "Life is really simple, but we insist on making it complicated.", Author: "Confucius"},
 	Quote{Id: 3, Quotation: "This above all, to thine own self be true.", Author: "William Shakespeare"},
