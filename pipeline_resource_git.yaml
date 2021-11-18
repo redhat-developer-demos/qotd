@@ -1,0 +1,9 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: qotd-git
+spec:
+  params:
+    - name: url
+      value: 'https://github.com/redhat-developer-demos/qotd.git'
+  type: git
