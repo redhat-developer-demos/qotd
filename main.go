@@ -6,7 +6,7 @@ import (
 )
 
 var quotes = Quotes{
-	Quote{Id: 0, Quotation: "I got a fever, and the only prescription is more cowbell!", Author: "Will Ferrell"},
+	Quote{Id: 0, Quotation: "Whatever can happen at any time can happen today.", Author: "Seneca"},
 	Quote{Id: 1, Quotation: "Yeah, well, that's just like, your opinion ... man.", Author: "The Dude"},
 	Quote{Id: 2, Quotation: "Life is really simple, but we insist on making it complicated.", Author: "Confucius"},
 	Quote{Id: 3, Quotation: "This above all, to thine own self be true.", Author: "William Shakespeare"},
