@@ -15,7 +15,7 @@ func AllQuotes(w http.ResponseWriter, r *http.Request) {
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "qotd")
+	fmt.Fprintln(w, "qotd Oct 11 2023 10:41 am")
 }
 
 func OneQuote(w http.ResponseWriter, r *http.Request) {
@@ -27,13 +27,13 @@ func OneQuote(w http.ResponseWriter, r *http.Request) {
 }
 
 func RandomQuote(w http.ResponseWriter, r *http.Request) {
-	json.NewEncoder(w).Encode(quotes[rand.Intn(6)])
+	json.NewEncoder(w).Encode(quotes[rand.Intn(7)])
 }
 
 func Version(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "1.0.3")
+	fmt.Fprintln(w, "3.0.0")
 }
 
 func WrittenIn(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Go")
+	fmt.Fprintln(w, "GO")
 }
